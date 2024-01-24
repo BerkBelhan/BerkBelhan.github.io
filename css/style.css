@@ -1,0 +1,70 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #6ba7d9, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#Intro {
+    height: 100vh; 
+}
+
+h1.display-5 {
+    font-family: "Sacramento", cursive;
+    font-size: 5rem; 
+    margin: 50px;
+}
+p.lead {
+    font-size: 2.5rem;
+}
+h2.custom2{
+    color: #6ba7d9;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+h2.custom3{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+p.col-lg-8{
+    font-size: 1.75rem;
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+.endorseButton {
+    margin-top: 50px; 
+}
+.logos-container{
+    padding-top: 50px;
+}
+
+
+
+
+
